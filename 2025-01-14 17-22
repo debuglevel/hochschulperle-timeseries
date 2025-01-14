@@ -41,7 +41,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>215</stimmen>
+			<stimmen>216</stimmen>
 		</keyword>
 		<keyword>
 			<id>243</id>
@@ -96,7 +96,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>186</stimmen>
+			<stimmen>187</stimmen>
 		</keyword>
 		<keyword>
 			<id>248</id>
@@ -175,4 +175,4 @@
 		<backgroundimage></backgroundimage>
 	</property>
 </voting>
-<!-- 0.12168216705322 -->
+<!-- 0.067032098770142 -->
