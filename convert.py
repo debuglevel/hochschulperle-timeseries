@@ -4,51 +4,59 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-# Directory containing the XML files
-directory = '.'
 
-# Dictionary to store the data
-data = {}
+def main():
+    # Directory containing the XML files
+    directory = '.'
 
-print("Reading XML files from directory:", directory)
-# Read and parse XML files
-for file in glob.glob(os.path.join(directory, '2025-*')):
-    print("Reading file:", file)
-    tree = ET.parse(file)
-    root = tree.getroot()
+    # Dictionary to store the data
+    data = {}
 
-    # Extract datetime from the filename
-    filename = os.path.basename(file)
-    print("Filename:", filename)
-    file_datetime = datetime.strptime(filename, '%Y-%m-%d %H-%M')
-    print("Datetime:", file_datetime)
+    print("Reading XML files from directory:", directory)
+    # Read and parse XML files
+    for file in glob.glob(os.path.join(directory, '2025-*')):
+        print("Reading file:", file)
+        tree = ET.parse(file)
+        root = tree.getroot()
 
-    # Extract keywords and votes
-    for keyword in root.findall('.//keyword'):
-        print("Keyword:", keyword.find('name').text.strip())
-        name = keyword.find('name').text.strip()
-        votes = int(keyword.find('stimmen').text.strip())
+        # Extract datetime from the filename
+        filename = os.path.basename(file)
+        print("Filename:", filename)
+        file_datetime = datetime.strptime(filename, '%Y-%m-%d %H-%M')
+        print("Datetime:", file_datetime)
 
-        if name not in data:
-            data[name] = []
-        data[name].append((file_datetime, votes))
+        # Extract keywords and votes
+        for keyword in root.findall('.//keyword'):
+            print("Keyword:", keyword.find('name').text.strip())
+            name = keyword.find('name').text.strip()
+            votes = int(keyword.find('stimmen').text.strip())
 
-print(data)
+            if name not in data:
+                data[name] = []
+            data[name].append((file_datetime, votes))
 
-# Plot the data
-print("Plotting the data")
-plt.figure(figsize=(10, 6))
+    print(data)
 
-for name, values in data.items():
-    values.sort()  # Sort by datetime
-    dates, votes = zip(*values)
-    plt.plot(dates, votes, label=name)
+    # Plot the data
+    print("Plotting the data")
+    plt.figure(figsize=(10, 6))
 
-plt.xlabel('Date and Time')
-plt.ylabel('Votes')
-plt.title('Time Series of Votes for Each Keyword')
-plt.legend()
-plt.grid(True)
-#plt.show()
+    for name, values in data.items():
+        values.sort()  # Sort by datetime
+        dates, votes = zip(*values)
+        plt.plot(dates, votes, label=name)
 
-plt.savefig('plot.svg', format='svg')
+    plt.xlabel('Date and Time')
+    plt.ylabel('Votes')
+    plt.title('Time Series of Votes for Each Keyword')
+    plt.legend()
+    plt.grid(True)
+    #plt.show()
+
+    plt.savefig('plot.svg', format='svg')
+
+if __name__ == '__main__':
+    while True:
+        main()
+        import time
+        time.sleep(60)
