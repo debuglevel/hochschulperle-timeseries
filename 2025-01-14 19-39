@@ -30,7 +30,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>71</stimmen>
+			<stimmen>72</stimmen>
 		</keyword>
 		<keyword>
 			<id>242</id>
@@ -175,4 +175,4 @@
 		<backgroundimage></backgroundimage>
 	</property>
 </voting>
-<!-- 0.090763092041016 -->
+<!-- 0.086210966110229 -->
