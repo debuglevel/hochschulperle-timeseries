@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<voting>
+	<aktiveVorlage>
+		<vorlage>
+			<id>28</id>
+			<name>
+                <![CDATA[Hochschulperle 2024 (Januar 2025)]]>
+            </name>
+			<counter>0</counter>
+			<counterstatus>0</counterstatus>
+			<frage>
+                <![CDATA[Wer wird Hochschulperle 2024?]]>
+            </frage>
+			<anweisungstext>
+                <![CDATA[H01..H12]]>
+            </anweisungstext>
+			<modus>2</modus>
+			<auswertung>1</auswertung>
+			<kommastellen>2</kommastellen>
+		</vorlage>
+	</aktiveVorlage>
+
+	<keywords>
+		<keyword>
+			<id>241</id>
+			<name>
+                <![CDATA[H01]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>50</stimmen>
+		</keyword>
+		<keyword>
+			<id>242</id>
+			<name>
+                <![CDATA[H02]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>217</stimmen>
+		</keyword>
+		<keyword>
+			<id>243</id>
+			<name>
+                <![CDATA[H03]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>102</stimmen>
+		</keyword>
+		<keyword>
+			<id>244</id>
+			<name>
+                <![CDATA[H04]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>1</stimmen>
+		</keyword>
+		<keyword>
+			<id>245</id>
+			<name>
+                <![CDATA[H05]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>34</stimmen>
+		</keyword>
+		<keyword>
+			<id>246</id>
+			<name>
+                <![CDATA[H06]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>32</stimmen>
+		</keyword>
+		<keyword>
+			<id>247</id>
+			<name>
+                <![CDATA[H07]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>189</stimmen>
+		</keyword>
+		<keyword>
+			<id>248</id>
+			<name>
+                <![CDATA[H08]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>115</stimmen>
+		</keyword>
+		<keyword>
+			<id>249</id>
+			<name>
+                <![CDATA[H09]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>42</stimmen>
+		</keyword>
+		<keyword>
+			<id>250</id>
+			<name>
+                <![CDATA[H10]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>5</stimmen>
+		</keyword>
+		<keyword>
+			<id>251</id>
+			<name>
+                <![CDATA[H11]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>79</stimmen>
+		</keyword>
+		<keyword>
+			<id>252</id>
+			<name>
+                <![CDATA[H12]]>
+            </name>
+			<zusatz>
+                <![CDATA[ ]]>
+            </zusatz>
+			<hexcolor>30515f</hexcolor>
+			<stimmen>100</stimmen>
+		</keyword>
+	</keywords>
+
+	<property>
+		<backgroundcolor>e7e7e7</backgroundcolor>
+		<fontfamily>arial</fontfamily>
+		<contentfontsize>24px</contentfontsize>
+		<contentfontcolor>30515f</contentfontcolor>
+		<contentfontweight>500</contentfontweight>
+		<statictextheader></statictextheader>
+		<tickertextheader></tickertextheader>
+		<tickertextfooter></tickertextfooter>
+		<tickerfontsize>0px</tickerfontsize>
+		<tickerfontcolor>30515f</tickerfontcolor>
+		<tickerfontweight>500</tickerfontweight>
+		<keywordfontsize>18px</keywordfontsize>
+		<keywordfontcolor>30515f</keywordfontcolor>
+		<counterfontsize>80px</counterfontsize>
+		<counterfontcolor>FF0000</counterfontcolor>
+		<barcolor>CCCCCC</barcolor>
+		<backgroundimage></backgroundimage>
+	</property>
+</voting>
+<!-- 0.080438137054443 -->
