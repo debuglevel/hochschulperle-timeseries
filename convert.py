@@ -19,7 +19,9 @@ for file in glob.glob(os.path.join(directory, '2025-*')):
 
     # Extract datetime from the filename
     filename = os.path.basename(file)
-    file_datetime = datetime.strptime(filename, '2025-%m-%d %H-%M')
+    print("Filename:", filename)
+    file_datetime = datetime.strptime(filename, '%Y-%m-%d %H-%M')
+    print("Datetime:", file_datetime)
 
     # Extract keywords and votes
     for keyword in root.findall('.//keyword'):
@@ -30,6 +32,8 @@ for file in glob.glob(os.path.join(directory, '2025-*')):
         if name not in data:
             data[name] = []
         data[name].append((file_datetime, votes))
+
+print(data)
 
 # Plot the data
 print("Plotting the data")
