@@ -45,4 +45,6 @@ plt.ylabel('Votes')
 plt.title('Time Series of Votes for Each Keyword')
 plt.legend()
 plt.grid(True)
-plt.show()
+#plt.show()
+
+plt.savefig('plot.svg', format='svg')
