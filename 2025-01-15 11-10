@@ -41,7 +41,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>718</stimmen>
+			<stimmen>719</stimmen>
 		</keyword>
 		<keyword>
 			<id>243</id>
@@ -52,7 +52,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>175</stimmen>
+			<stimmen>176</stimmen>
 		</keyword>
 		<keyword>
 			<id>244</id>
@@ -85,7 +85,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>39</stimmen>
+			<stimmen>40</stimmen>
 		</keyword>
 		<keyword>
 			<id>247</id>
@@ -96,7 +96,7 @@
                 <![CDATA[ ]]>
             </zusatz>
 			<hexcolor>30515f</hexcolor>
-			<stimmen>678</stimmen>
+			<stimmen>681</stimmen>
 		</keyword>
 		<keyword>
 			<id>248</id>
@@ -175,4 +175,4 @@
 		<backgroundimage></backgroundimage>
 	</property>
 </voting>
-<!-- 0.11158514022827 -->
+<!-- 0.11284303665161 -->
