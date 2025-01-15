@@ -25,6 +25,10 @@ def main():
         file_datetime = datetime.strptime(filename, '%Y-%m-%d %H-%M')
         print("Datetime:", file_datetime)
 
+        # if dateteime before 2025-01-15 09:00, skip
+        if file_datetime < datetime(2025, 1, 15, 9, 0):
+            continue
+
         # Extract keywords and votes
         for keyword in root.findall('.//keyword'):
             print("Keyword:", keyword.find('name').text.strip())
