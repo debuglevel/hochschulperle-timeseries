@@ -14,7 +14,7 @@ def main():
 
     print("Reading XML files from directory:", directory)
     # Read and parse XML files
-    for file in glob.glob(os.path.join(directory, '2025-01-15')):
+    for file in glob.glob(os.path.join(directory, '2025-*')):
         print("Reading file:", file)
         tree = ET.parse(file)
         root = tree.getroot()
