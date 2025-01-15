@@ -55,6 +55,7 @@ def main():
     plt.title('Time Series of Votes for Each Keyword')
     plt.legend()
     plt.grid(True)
+    plt.legend(loc='lower left', bbox_to_anchor=(0.5, -0.05))
     #plt.show()
 
     plt.savefig('plot.svg', format='svg')
